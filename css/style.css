@@ -60,15 +60,16 @@ th {
 table {
     margin-bottom: 30px;
     border: none;
-    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 .column {
-    column-gap: 200px;
+    width: 50%;
 }
 
 .column2 {
-    column-gap: 200px;
+    width: 25%;
 }
 
 footer{
